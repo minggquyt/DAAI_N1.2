@@ -1,7 +1,5 @@
 # 🚀 KHO LƯU TRỮ DỰ ÁN
 
-> Ứng dụng web tra cứu từ điển tiếng Anh sử dụng API công khai, giúp người dùng dễ dàng tìm kiếm từ vựng, xem phiên âm, phát âm và nghĩa chi tiết một cách nhanh chóng.
-
 ---
 
 ## 🔗 Liên Kết Dự Án

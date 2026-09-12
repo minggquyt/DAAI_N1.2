@@ -1,0 +1,81 @@
+shipper_id,shipper_name,shipper_phone,shipper_gender,shipper_age,marital_status,education,company,vehicle,experience_years,shipper_rating,success_rate,avg_delivery_time,working_shift,join_date
+SHP00033,Võ Gia Giang,996960250,Female,29,Married,High School,J&T Express,Van,9,5.0,99.9,42,Evening,2022-02-07
+SHP00001,Bùi Văn Long,991476209,Male,27,Married,Bachelor,Viettel Post,Truck,7,5.0,99.0,61,Evening,2026-03-17
+SHP00002,Trần Anh Khánh,959297982,Male,41,Married,Bachelor,J&T Express,Van,2,4.9,98.4,72,Afternoon,2025-01-29
+SHP00007,Hoàng Anh Hùng,987597617,Female,34,Single,High School,BEST Express,Truck,6,4.4,99.6,75,Afternoon,2024-06-06
+SHP00011,Võ Thị Hùng,940850445,Female,43,Single,High School,J&T Express,Van,5,4.6,98.4,74,Afternoon,2023-03-23
+SHP00080,Lê Minh Khánh,944508698,Male,55,Single,Bachelor,GHN,Motorbike,11,4.6,95.3,39,Afternoon,2018-03-11
+SHP00044,Nguyễn Thị Cường,920549207,Female,34,Married,Bachelor,Ninja Van,Van,12,5.0,95.3,50,Morning,2018-06-10
+SHP00066,Lê Thị Phong,943623439,Female,49,Married,Bachelor,Ninja Van,Van,8,4.6,99.0,59,Morning,2022-08-30
+SHP00074,Lê Minh Phong,969920920,Female,52,Married,High School,Shopee Express,Motorbike,10,4.5,96.8,36,Morning,2022-05-13
+SHP00052,Phạm Anh Hùng,933172868,Female,38,Married,College,Ninja Van,Van,4,4.7,99.3,59,Evening,2025-06-27
+SHP00064,Nguyễn Gia Quân,937230018,Male,39,Married,Bachelor,J&T Express,Van,12,4.8,99.3,48,Afternoon,2018-07-24
+SHP00067,Nguyễn Quốc Hà,947066875,Male,47,Single,Bachelor,Viettel Post,Truck,5,4.7,99.0,39,Morning,2023-09-13
+SHP00013,Lê Anh Hà,984678290,Female,39,Single,College,BEST Express,Truck,10,4.2,97.7,47,Morning,2025-10-28
+SHP00026,Nguyễn Thanh Hùng,902981241,Male,37,Single,High School,Ninja Van,Van,11,4.3,96.0,21,Afternoon,2025-11-16
+SHP00058,Bùi Thanh Hùng,956897812,Male,39,Married,College,GHN,Motorbike,11,4.6,98.3,37,Evening,2018-02-11
+SHP00017,Bùi Thị Hùng,908818611,Female,51,Married,College,GHN,Motorbike,11,5.0,98.1,69,Afternoon,2025-08-24
+SHP00029,Võ Quốc Hùng,938481552,Male,36,Single,College,Viettel Post,Truck,8,4.3,98.2,21,Morning,2023-03-28
+SHP00028,Hoàng Đức Quân,983104398,Male,29,Single,College,GHTK,Motorbike,8,4.6,98.8,52,Afternoon,2023-06-05
+SHP00027,Hoàng Thị Giang,902650261,Female,47,Married,High School,Ninja Van,Van,9,4.4,96.8,34,Evening,2018-02-04
+SHP00025,Trần Đức Cường,922791841,Male,33,Single,High School,GHTK,Motorbike,10,4.6,98.6,25,Evening,2021-05-19
+SHP00024,Hoàng Thị Nam,993822938,Female,55,Married,High School,Ninja Van,Van,3,4.5,96.4,71,Evening,2023-07-11
+SHP00023,Bùi Văn Hà,928729869,Male,36,Single,College,Shopee Express,Motorbike,6,4.6,95.9,20,Evening,2023-11-06
+SHP00022,Lê Thanh Nam,988804431,Male,54,Single,Bachelor,Ahamove,Motorbike,7,4.8,99.4,31,Morning,2018-06-29
+SHP00021,Lê Quốc Trang,960718218,Female,48,Married,Bachelor,GHN,Motorbike,12,4.3,99.7,20,Morning,2023-12-12
+SHP00020,Hoàng Đức Giang,903070385,Female,53,Married,High School,Ninja Van,Van,6,5.0,95.7,57,Afternoon,2025-03-30
+SHP00019,Đặng Văn Nam,991210929,Female,46,Single,Bachelor,GHN,Motorbike,2,4.8,96.5,39,Evening,2023-11-03
+SHP00018,Lê Gia Phong,902541877,Female,52,Single,College,GHN,Motorbike,7,4.3,98.5,63,Afternoon,2020-08-27
+SHP00039,Phạm Đức Giang,954844436,Female,31,Single,High School,Ahamove,Motorbike,8,4.9,97.3,50,Evening,2021-08-03
+SHP00008,Phạm Thanh Trang,914419500,Female,34,Married,Bachelor,BEST Express,Truck,5,4.7,95.9,69,Afternoon,2022-03-11
+SHP00038,Bùi Quốc Trang,961999001,Female,53,Single,College,Ahamove,Motorbike,3,4.4,99.7,23,Evening,2019-10-25
+SHP00037,Phạm Quốc Dũng,936758027,Female,40,Single,Bachelor,GHN,Motorbike,9,4.3,96.7,70,Morning,2020-07-16
+SHP00036,Phạm Gia An,974640157,Female,34,Single,Bachelor,Ninja Van,Van,3,4.7,96.5,33,Morning,2022-01-21
+SHP00035,Trần Văn Hùng,986963662,Male,54,Married,High School,BEST Express,Truck,2,4.7,98.9,74,Morning,2020-05-03
+SHP00003,Hoàng Thị Khánh,927142576,Male,30,Single,High School,GHN,Motorbike,10,4.8,95.1,53,Evening,2019-11-13
+SHP00034,Đặng Thị Vy,983912150,Female,47,Married,College,Ninja Van,Van,7,4.7,97.4,58,Evening,2018-08-28
+SHP00032,Đặng Văn Nam,961242116,Female,24,Single,High School,BEST Express,Truck,6,4.8,97.1,37,Afternoon,2023-06-14
+SHP00031,Lê Thanh Nam,956649092,Female,53,Single,Bachelor,Viettel Post,Truck,7,4.4,96.0,47,Afternoon,2021-11-19
+SHP00016,Bùi Văn Trang,926827357,Male,55,Married,High School,Viettel Post,Truck,6,4.9,96.6,59,Afternoon,2020-01-05
+SHP00030,Hoàng Văn Trang,956294981,Male,46,Single,High School,Viettel Post,Truck,4,4.2,96.4,63,Morning,2019-04-11
+SHP00046,Nguyễn Đức Cường,919341832,Male,34,Married,High School,GHTK,Motorbike,8,5.0,99.6,62,Afternoon,2023-07-07
+SHP00041,Phạm Thị Hà,927179809,Male,38,Married,College,J&T Express,Van,12,4.9,97.6,23,Morning,2023-03-21
+SHP00045,Nguyễn Thanh Giang,995279807,Male,27,Married,Bachelor,Ahamove,Motorbike,7,4.8,95.3,42,Evening,2018-01-12
+SHP00042,Nguyễn Quốc Trang,986734203,Male,51,Married,High School,Ninja Van,Van,7,5.0,99.8,55,Evening,2019-11-02
+SHP00043,Bùi Thị Trang,912757576,Female,38,Married,Bachelor,Ninja Van,Van,2,4.6,97.0,65,Morning,2021-02-21
+SHP00040,Phạm Gia An,938877986,Male,36,Married,High School,Ninja Van,Van,12,4.4,98.9,28,Morning,2023-10-04
+SHP00048,Nguyễn Thị Vy,946448535,Male,51,Married,Bachelor,Shopee Express,Motorbike,9,4.9,98.8,46,Afternoon,2024-12-01
+SHP00050,Hoàng Gia Hùng,990945189,Female,49,Single,College,GHTK,Motorbike,12,4.4,95.2,37,Morning,2019-05-27
+SHP00049,Đặng Đức Dũng,944279003,Male,24,Married,Bachelor,Ahamove,Motorbike,6,4.8,98.0,67,Afternoon,2023-04-11
+SHP00009,Nguyễn Thanh Bình,909770946,Female,53,Married,College,BEST Express,Truck,12,4.3,97.4,66,Evening,2022-10-06
+SHP00047,Phạm Quốc Sơn,926716571,Male,42,Single,High School,Shopee Express,Motorbike,10,4.6,98.3,33,Afternoon,2022-01-09
+SHP00015,Bùi Văn Hùng,946414069,Female,48,Single,Bachelor,Viettel Post,Truck,1,4.3,98.8,42,Afternoon,2024-12-22
+SHP00056,Nguyễn Minh Long,951583055,Male,55,Married,High School,Ninja Van,Van,8,4.9,96.6,21,Morning,2023-12-09
+SHP00055,Hoàng Văn Trang,900482857,Female,34,Single,Bachelor,J&T Express,Van,5,4.2,95.8,46,Morning,2022-09-03
+SHP00054,Nguyễn Quốc Phong,998883340,Female,50,Married,High School,BEST Express,Truck,9,4.7,97.8,56,Evening,2023-03-14
+SHP00053,Nguyễn Đức Bình,943102331,Female,54,Single,Bachelor,GHTK,Motorbike,8,4.7,96.8,68,Evening,2018-02-20
+SHP00051,Đặng Anh Hà,980366393,Female,42,Single,College,J&T Express,Van,9,4.6,95.1,67,Afternoon,2019-02-16
+SHP00061,Lê Anh Quân,956517585,Male,32,Single,High School,GHTK,Motorbike,1,4.8,95.1,74,Evening,2019-12-17
+SHP00060,Bùi Thanh Cường,904584927,Male,39,Married,Bachelor,GHTK,Motorbike,11,4.7,95.4,32,Afternoon,2022-11-21
+SHP00059,Nguyễn Minh Quân,907366403,Male,55,Single,Bachelor,J&T Express,Van,7,5.0,98.9,50,Evening,2021-05-08
+SHP00005,Trần Minh Cường,979196342,Male,31,Married,College,BEST Express,Truck,10,4.6,95.7,62,Morning,2019-12-19
+SHP00057,Võ Thị Sơn,937417919,Male,26,Single,Bachelor,GHTK,Motorbike,7,4.6,97.9,53,Evening,2024-02-09
+SHP00012,Nguyễn Thị Bình,972210652,Female,49,Single,Bachelor,GHTK,Motorbike,6,4.7,97.2,31,Morning,2023-10-01
+SHP00063,Nguyễn Thanh Vy,922698939,Female,38,Married,Bachelor,BEST Express,Truck,8,4.6,96.2,26,Evening,2019-04-28
+SHP00062,Trần Văn Sơn,954653513,Female,47,Single,Bachelor,Viettel Post,Truck,1,4.3,98.7,69,Morning,2025-12-16
+SHP00014,Lê Gia Vy,971290529,Male,50,Single,Bachelor,J&T Express,Van,8,4.8,96.3,71,Evening,2018-02-10
+SHP00065,Nguyễn Quốc Trang,906371317,Male,39,Married,High School,Ahamove,Motorbike,2,4.8,97.9,28,Evening,2023-06-24
+SHP00006,Võ Thanh Nam,951235544,Female,41,Married,Bachelor,J&T Express,Van,9,4.7,96.0,41,Afternoon,2024-02-02
+SHP00068,Trần Quốc Long,924139334,Male,47,Single,College,Ninja Van,Van,2,4.6,99.8,29,Morning,2025-10-13
+SHP00004,Trần Đức Vy,971617475,Female,42,Married,College,Viettel Post,Truck,8,5.0,96.3,53,Evening,2025-12-22
+SHP00069,Hoàng Thị Giang,968458783,Female,34,Single,College,GHN,Motorbike,10,4.5,98.5,31,Morning,2019-01-21
+SHP00010,Bùi Đức Bình,921691981,Male,31,Single,Bachelor,Ahamove,Motorbike,8,4.5,99.5,44,Evening,2022-08-10
+SHP00070,Phạm Anh Cường,913921412,Female,55,Single,College,Viettel Post,Truck,9,4.3,99.4,66,Morning,2024-10-29
+SHP00071,Bùi Thị Hà,975678108,Male,34,Married,High School,Ahamove,Motorbike,12,4.7,95.9,26,Afternoon,2023-04-22
+SHP00073,Phạm Văn Phong,982262009,Female,51,Married,College,GHTK,Motorbike,8,4.9,98.6,21,Morning,2023-10-28
+SHP00072,Trần Đức Hùng,987226165,Male,51,Single,College,Viettel Post,Truck,12,4.6,99.4,21,Morning,2023-07-02
+SHP00075,Phạm Anh Hùng,989436113,Female,33,Married,Bachelor,J&T Express,Van,11,4.3,96.7,52,Afternoon,2024-10-03
+SHP00076,Trần Thanh Long,933140008,Male,29,Married,Bachelor,BEST Express,Truck,10,4.7,95.1,65,Afternoon,2020-09-25
+SHP00078,Đặng Văn Bình,999125359,Female,29,Single,High School,Shopee Express,Motorbike,11,5.0,96.8,38,Evening,2025-09-25
+SHP00077,Trần Văn Giang,931398461,Female,38,Married,Bachelor,BEST Express,Truck,9,4.7,99.4,41,Morning,2019-11-11
+SHP00079,Đặng Thanh An,993275153,Male,46,Married,Bachelor,Shopee Express,Motorbike,11,4.5,95.9,68,Morning,2018-09-09

@@ -1,0 +1,201 @@
+sales_employee_key,sales_employee_id,employee_name,marital_status,education_level,years_experience
+1,EMP0103,Nguyễn Thị Phúc,Đã kết hôn,Đại học,20
+2,EMP0180,Lê Gia Hùng,Đã kết hôn,Sau đại học,3
+3,EMP0093,Bùi Minh Quân,Đã kết hôn,Cao đẳng,18
+4,EMP0015,Võ Quốc Mai,Độc thân,Trung cấp,12
+5,EMP0107,Hồ Thanh Yến,Độc thân,Đại học,17
+6,EMP0072,Đặng Gia Vy,Độc thân,Đại học,9
+7,EMP0189,Võ Hữu Vy,Đã kết hôn,Cao đẳng,10
+8,EMP0021,Dương Thanh Lan,Đã kết hôn,Cao đẳng,9
+9,EMP0122,Ngô Văn Hà,Đã kết hôn,Cao đẳng,9
+10,EMP0075,Phạm Đức Hùng,Đã kết hôn,Đại học,17
+11,EMP0088,Bùi Gia Bình,Đã kết hôn,Cao đẳng,2
+12,EMP0117,Phan Gia Mai,Đã kết hôn,Sau đại học,14
+13,EMP0100,Bùi Ngọc Lan,Đã kết hôn,Đại học,6
+14,EMP0104,Đặng Văn Phúc,Độc thân,Cao đẳng,18
+15,EMP0152,Hoàng Đức Oanh,Đã kết hôn,Trung cấp,16
+16,EMP0131,Bùi Ngọc Lan,Độc thân,Đại học,8
+17,EMP0150,Lê Anh Mai,Đã kết hôn,Đại học,13
+18,EMP0053,Dương Thị Hà,Đã kết hôn,Đại học,11
+19,EMP0002,Phạm Văn Mai,Đã kết hôn,Đại học,20
+20,EMP0158,Phạm Gia Mai,Đã kết hôn,Đại học,17
+21,EMP0038,Hồ Quốc Hà,Đã kết hôn,Sau đại học,1
+22,EMP0130,Bùi Minh Bình,Độc thân,Đại học,15
+23,EMP0192,Nguyễn Đức Bình,Độc thân,Trung cấp,1
+24,EMP0188,Võ Anh Linh,Độc thân,Cao đẳng,17
+25,EMP0161,Đỗ Anh Khánh,Độc thân,Cao đẳng,17
+26,EMP0058,Lê Thanh Trang,Độc thân,Đại học,3
+27,EMP0022,Huỳnh Văn Cường,Đã kết hôn,Đại học,2
+28,EMP0089,Trần Gia An,Đã kết hôn,Đại học,12
+29,EMP0049,Nguyễn Thị Bình,Độc thân,Cao đẳng,17
+30,EMP0059,Nguyễn Đức Dũng,Đã kết hôn,Đại học,12
+31,EMP0170,Vũ Đức Giang,Độc thân,Đại học,10
+32,EMP0190,Đỗ Minh Giang,Độc thân,Đại học,19
+33,EMP0175,Dương Anh Giang,Đã kết hôn,Cao đẳng,12
+34,EMP0051,Dương Anh Hùng,Đã kết hôn,Trung cấp,20
+35,EMP0108,Phạm Văn Phúc,Đã kết hôn,Đại học,17
+36,EMP0055,Hồ Thị Lan,Đã kết hôn,Đại học,3
+37,EMP0064,Hoàng Quốc Mai,Độc thân,Đại học,5
+38,EMP0135,Đỗ Gia Linh,Độc thân,Đại học,4
+39,EMP0073,Ngô Gia Uyên,Đã kết hôn,Trung cấp,3
+40,EMP0167,Bùi Minh Lan,Đã kết hôn,Sau đại học,15
+41,EMP0018,Đặng Văn Hùng,Độc thân,Đại học,9
+42,EMP0132,Bùi Thị Mai,Đã kết hôn,Sau đại học,8
+43,EMP0060,Phan Quốc Oanh,Độc thân,Trung cấp,16
+44,EMP0014,Đỗ Anh Sơn,Đã kết hôn,Đại học,14
+45,EMP0009,Phan Minh Vy,Đã kết hôn,Cao đẳng,8
+46,EMP0090,Bùi Anh Vy,Đã kết hôn,Đại học,16
+47,EMP0084,Võ Thanh Mai,Độc thân,Đại học,18
+48,EMP0092,Vũ Thanh Quân,Đã kết hôn,Đại học,9
+49,EMP0111,Trần Ngọc Lan,Đã kết hôn,Cao đẳng,4
+50,EMP0199,Đặng Minh Trang,Độc thân,Cao đẳng,2
+51,EMP0172,Dương Thanh Uyên,Đã kết hôn,Sau đại học,7
+52,EMP0008,Võ Thị Quân,Đã kết hôn,Sau đại học,14
+53,EMP0035,Lê Đức Lan,Đã kết hôn,Trung cấp,10
+54,EMP0081,Bùi Đức Uyên,Độc thân,Đại học,10
+55,EMP0164,Đặng Thanh Hà,Đã kết hôn,Cao đẳng,5
+56,EMP0050,Huỳnh Gia Quân,Độc thân,Cao đẳng,18
+57,EMP0134,Đỗ Minh Vy,Độc thân,Cao đẳng,13
+58,EMP0054,Phan Thị Uyên,Đã kết hôn,Đại học,17
+59,EMP0106,Hoàng Thanh Vy,Độc thân,Trung cấp,1
+60,EMP0004,Đỗ Thanh Lan,Đã kết hôn,Cao đẳng,17
+61,EMP0191,Hồ Anh Dũng,Độc thân,Trung cấp,4
+62,EMP0146,Võ Quốc Trang,Độc thân,Đại học,11
+63,EMP0044,Ngô Hữu Yến,Độc thân,Trung cấp,19
+64,EMP0162,Trần Thanh Giang,Độc thân,Đại học,18
+65,EMP0095,Trần Đức Nam,Độc thân,Đại học,9
+66,EMP0048,Đỗ Anh Khánh,Đã kết hôn,Cao đẳng,6
+67,EMP0200,Huỳnh Văn Quân,Đã kết hôn,Đại học,4
+68,EMP0040,Trần Hữu Giang,Đã kết hôn,Đại học,14
+69,EMP0082,Dương Ngọc Linh,Đã kết hôn,Đại học,14
+70,EMP0024,Vũ Quốc Dũng,Độc thân,Đại học,8
+71,EMP0154,Phan Đức Cường,Độc thân,Đại học,20
+72,EMP0124,Võ Thanh Oanh,Đã kết hôn,Đại học,7
+73,EMP0041,Hoàng Thị Oanh,Độc thân,Trung cấp,19
+74,EMP0157,Hoàng Đức Giang,Đã kết hôn,Trung cấp,9
+75,EMP0045,Hoàng Quốc Yến,Đã kết hôn,Đại học,20
+76,EMP0065,Hồ Ngọc Yến,Độc thân,Đại học,3
+77,EMP0071,Võ Văn Linh,Độc thân,Cao đẳng,4
+78,EMP0129,Hồ Văn Bình,Độc thân,Cao đẳng,6
+79,EMP0136,Ngô Đức Yến,Đã kết hôn,Sau đại học,12
+80,EMP0063,Trần Minh Vy,Đã kết hôn,Sau đại học,9
+81,EMP0139,Hoàng Thị Giang,Độc thân,Cao đẳng,19
+82,EMP0163,Phạm Thanh Mai,Đã kết hôn,Sau đại học,1
+83,EMP0033,Bùi Thị Dũng,Độc thân,Sau đại học,12
+84,EMP0123,Trần Gia Khánh,Đã kết hôn,Đại học,12
+85,EMP0005,Trần Gia Uyên,Đã kết hôn,Đại học,2
+86,EMP0028,Trần Văn Lan,Đã kết hôn,Cao đẳng,19
+87,EMP0012,Đỗ Ngọc Lan,Độc thân,Cao đẳng,17
+88,EMP0151,Ngô Quốc Yến,Đã kết hôn,Đại học,16
+89,EMP0062,Đỗ Thanh Vy,Đã kết hôn,Đại học,18
+90,EMP0037,Võ Quốc Trang,Độc thân,Đại học,6
+91,EMP0099,Vũ Gia An,Độc thân,Đại học,14
+92,EMP0193,Lê Thị Quân,Độc thân,Đại học,13
+93,EMP0101,Nguyễn Minh Mai,Đã kết hôn,Trung cấp,19
+94,EMP0001,Trần Anh Phúc,Đã kết hôn,Đại học,9
+95,EMP0142,Võ Thanh Lan,Đã kết hôn,Trung cấp,14
+96,EMP0027,Phạm Anh Hà,Đã kết hôn,Cao đẳng,15
+97,EMP0137,Đặng Thị Mai,Độc thân,Trung cấp,9
+98,EMP0042,Lê Gia Mai,Đã kết hôn,Đại học,8
+99,EMP0179,Phạm Ngọc Phúc,Đã kết hôn,Cao đẳng,19
+100,EMP0096,Lê Gia Vy,Đã kết hôn,Đại học,19
+101,EMP0052,Dương Văn Dũng,Độc thân,Đại học,5
+102,EMP0143,Bùi Minh Quân,Độc thân,Đại học,11
+103,EMP0171,Trần Văn Khánh,Độc thân,Đại học,5
+104,EMP0029,Bùi Minh Trang,Độc thân,Sau đại học,12
+105,EMP0036,Hoàng Quốc Phúc,Đã kết hôn,Đại học,10
+106,EMP0013,Phạm Thanh Oanh,Độc thân,Trung cấp,3
+107,EMP0160,Ngô Thanh Sơn,Đã kết hôn,Sau đại học,15
+108,EMP0187,Trần Gia Hà,Độc thân,Đại học,10
+109,EMP0086,Bùi Thị Yến,Đã kết hôn,Đại học,20
+110,EMP0066,Huỳnh Thị Dũng,Độc thân,Trung cấp,17
+111,EMP0185,Phan Hữu Yến,Độc thân,Đại học,7
+112,EMP0030,Nguyễn Anh Linh,Đã kết hôn,Đại học,15
+113,EMP0128,Huỳnh Quốc An,Độc thân,Đại học,3
+114,EMP0121,Lê Quốc Trang,Đã kết hôn,Cao đẳng,5
+115,EMP0116,Ngô Gia Lan,Đã kết hôn,Cao đẳng,3
+116,EMP0003,Vũ Thị Trang,Độc thân,Sau đại học,10
+117,EMP0198,Võ Anh Cường,Độc thân,Đại học,13
+118,EMP0155,Dương Anh Oanh,Độc thân,Trung cấp,7
+119,EMP0165,Đỗ Ngọc Vy,Đã kết hôn,Đại học,6
+120,EMP0118,Lê Thị Linh,Đã kết hôn,Đại học,11
+121,EMP0113,Vũ Văn Bình,Độc thân,Sau đại học,13
+122,EMP0186,Lê Văn Hà,Đã kết hôn,Trung cấp,3
+123,EMP0039,Võ Thị Hùng,Độc thân,Đại học,12
+124,EMP0184,Hồ Thị Oanh,Độc thân,Đại học,8
+125,EMP0087,Phan Anh Yến,Đã kết hôn,Cao đẳng,16
+126,EMP0147,Dương Đức Oanh,Độc thân,Cao đẳng,13
+127,EMP0126,Hồ Anh Nam,Đã kết hôn,Đại học,18
+128,EMP0068,Phan Thị Mai,Độc thân,Cao đẳng,1
+129,EMP0183,Dương Quốc Hà,Độc thân,Trung cấp,11
+130,EMP0145,Phan Đức Hùng,Đã kết hôn,Cao đẳng,12
+131,EMP0069,Hồ Văn Lan,Đã kết hôn,Đại học,12
+132,EMP0098,Phan Thị Hà,Đã kết hôn,Trung cấp,18
+133,EMP0144,Hoàng Quốc Mai,Đã kết hôn,Đại học,16
+134,EMP0097,Lê Minh Phúc,Đã kết hôn,Sau đại học,20
+135,EMP0070,Hồ Minh Yến,Đã kết hôn,Sau đại học,11
+136,EMP0148,Hoàng Thị Hà,Đã kết hôn,Đại học,1
+137,EMP0195,Vũ Thanh Linh,Đã kết hôn,Sau đại học,4
+138,EMP0168,Đặng Hữu Sơn,Độc thân,Đại học,9
+139,EMP0011,Dương Quốc Dũng,Đã kết hôn,Cao đẳng,17
+140,EMP0178,Đặng Quốc Uyên,Đã kết hôn,Đại học,10
+141,EMP0159,Phạm Văn Bình,Độc thân,Trung cấp,8
+142,EMP0007,Bùi Anh Sơn,Đã kết hôn,Trung cấp,4
+143,EMP0112,Nguyễn Hữu Bình,Đã kết hôn,Đại học,15
+144,EMP0140,Lê Hữu Dũng,Đã kết hôn,Đại học,10
+145,EMP0197,Ngô Đức Bình,Đã kết hôn,Cao đẳng,8
+146,EMP0120,Đặng Quốc Sơn,Đã kết hôn,Đại học,13
+147,EMP0166,Trần Hữu Mai,Độc thân,Trung cấp,18
+148,EMP0153,Vũ Anh Trang,Đã kết hôn,Đại học,9
+149,EMP0110,Trần Thị Phúc,Đã kết hôn,Đại học,11
+150,EMP0194,Phạm Gia Phúc,Độc thân,Sau đại học,17
+151,EMP0169,Lê Đức Uyên,Đã kết hôn,Đại học,15
+152,EMP0176,Hồ Hữu Hà,Độc thân,Sau đại học,7
+153,EMP0115,Huỳnh Đức Nam,Đã kết hôn,Đại học,10
+154,EMP0119,Trần Thị Yến,Độc thân,Cao đẳng,3
+155,EMP0109,Hồ Thanh Trang,Độc thân,Cao đẳng,17
+156,EMP0182,Đỗ Thị Hà,Độc thân,Trung cấp,1
+157,EMP0061,Hoàng Ngọc Hà,Độc thân,Đại học,16
+158,EMP0017,Võ Thanh Nam,Đã kết hôn,Cao đẳng,12
+159,EMP0046,Hồ Ngọc Giang,Đã kết hôn,Cao đẳng,18
+160,EMP0006,Lê Anh Quân,Đã kết hôn,Sau đại học,8
+161,EMP0181,Đỗ Gia Vy,Độc thân,Sau đại học,9
+162,EMP0067,Ngô Đức Nam,Độc thân,Cao đẳng,4
+163,EMP0025,Đặng Minh Yến,Độc thân,Sau đại học,2
+164,EMP0174,Huỳnh Hữu Nam,Đã kết hôn,Đại học,7
+165,EMP0114,Phan Anh Lan,Độc thân,Cao đẳng,4
+166,EMP0032,Đỗ Văn Dũng,Độc thân,Trung cấp,10
+167,EMP0127,Đỗ Gia Hà,Độc thân,Đại học,16
+168,EMP0043,Dương Minh Giang,Độc thân,Đại học,20
+169,EMP0026,Huỳnh Đức Linh,Độc thân,Sau đại học,14
+170,EMP0057,Vũ Hữu Yến,Độc thân,Đại học,19
+171,EMP0173,Dương Anh Mai,Độc thân,Sau đại học,11
+172,EMP0020,Ngô Hữu Lan,Đã kết hôn,Đại học,14
+173,EMP0125,Lê Quốc Mai,Độc thân,Đại học,13
+174,EMP0196,Hoàng Hữu Giang,Đã kết hôn,Đại học,19
+175,EMP0094,Đỗ Minh Mai,Độc thân,Trung cấp,7
+176,EMP0047,Nguyễn Anh Hùng,Độc thân,Trung cấp,14
+177,EMP0019,Dương Ngọc An,Độc thân,Cao đẳng,5
+178,EMP0023,Bùi Thị Vy,Độc thân,Đại học,11
+179,EMP0034,Dương Gia Lan,Đã kết hôn,Trung cấp,7
+180,EMP0016,Phan Thanh Phúc,Đã kết hôn,Đại học,10
+181,EMP0076,Đặng Anh Quân,Đã kết hôn,Đại học,3
+182,EMP0085,Đặng Văn Oanh,Độc thân,Sau đại học,15
+183,EMP0010,Phan Thị Phúc,Độc thân,Đại học,10
+184,EMP0138,Hồ Anh An,Đã kết hôn,Cao đẳng,9
+185,EMP0080,Phan Minh Dũng,Độc thân,Sau đại học,14
+186,EMP0074,Phan Đức Phúc,Đã kết hôn,Sau đại học,2
+187,EMP0141,Nguyễn Văn Hà,Đã kết hôn,Đại học,5
+188,EMP0105,Phan Thị Uyên,Độc thân,Sau đại học,16
+189,EMP0177,Nguyễn Hữu Bình,Đã kết hôn,Đại học,12
+190,EMP0083,Đỗ Thanh Bình,Đã kết hôn,Cao đẳng,6
+191,EMP0133,Phan Anh Lan,Đã kết hôn,Đại học,7
+192,EMP0091,Lê Đức Trang,Độc thân,Trung cấp,3
+193,EMP0056,Dương Minh Cường,Đã kết hôn,Sau đại học,10
+194,EMP0149,Phan Minh Cường,Độc thân,Cao đẳng,12
+195,EMP0102,Huỳnh Đức An,Độc thân,Đại học,18
+196,EMP0156,Vũ Anh Yến,Đã kết hôn,Đại học,10
+197,EMP0078,Phạm Hữu Bình,Đã kết hôn,Đại học,3
+198,EMP0079,Đặng Hữu Hùng,Độc thân,Cao đẳng,8
+199,EMP0031,Lê Gia Bình,Độc thân,Đại học,13
+200,EMP0077,Dương Ngọc Trang,Độc thân,Đại học,10

@@ -1,0 +1,188 @@
+classDiagram
+    direction LR
+
+    %% ==========================================
+    %% DIMENSION TABLES
+    %% ==========================================
+
+    class DIM_DATE {
+        <<Dimension>>
+        +date_key : INT [PK]
+        --
+        full_date : DATE
+        day_of_week : VARCHAR
+        day_name : VARCHAR
+        day_of_month : INT
+        month : INT
+        month_name : VARCHAR
+        quarter : INT
+        year : INT
+        is_weekend : BOOLEAN
+    }
+
+    class DIM_CUSTOMER {
+        <<Dimension>>
+        +customer_key : INT [PK]
+        --
+        customer_id : VARCHAR
+        signup_date : DATE
+        gender : VARCHAR
+        age_group : VARCHAR
+        acq_channel : VARCHAR
+        city : VARCHAR
+        region : VARCHAR
+        district : VARCHAR
+        zip : VARCHAR
+    }
+
+    class DIM_PRODUCT {
+        <<Dimension>>
+        +product_key : INT [PK]
+        --
+        product_id : VARCHAR
+        product_name : VARCHAR
+        category : VARCHAR
+        segment : VARCHAR
+        size : VARCHAR
+        color : VARCHAR
+        current_price : DECIMAL
+        current_cogs : DECIMAL
+    }
+
+    class DIM_SALES_EMPLOYEE {
+        <<Dimension>>
+        +sales_employee_key : INT [PK]
+        --
+        sales_employee_id : VARCHAR
+        employee_name : VARCHAR
+        marital_status : VARCHAR
+        education_level : VARCHAR
+        years_experience : INT
+    }
+
+    class DIM_SHIPPER {
+        <<Dimension>>
+        +shipper_key : INT [PK]
+        --
+        shipper_id : VARCHAR
+        shipper_name : VARCHAR
+        shipper_phone : VARCHAR
+        shipper_gender : VARCHAR
+        company : VARCHAR
+        vehicle : VARCHAR
+        working_shift : VARCHAR
+    }
+
+    class DIM_PROMOTION {
+        <<Dimension>>
+        +promo_key : INT [PK]
+        --
+        promo_id : VARCHAR
+        promo_name : VARCHAR
+        promo_type : VARCHAR
+        discount_value : DECIMAL
+        promo_channel : VARCHAR
+        app_category : VARCHAR
+        stackable_flag : BOOLEAN
+    }
+
+    class DIM_GEOGRAPHY {
+        <<Dimension>>
+        +geography_key : INT [PK]
+        --
+        zip : VARCHAR
+        city : VARCHAR
+        region : VARCHAR
+        district : VARCHAR
+    }
+
+    %% ==========================================
+    %% FACT TABLES
+    %% ==========================================
+
+    class FACT_SALES {
+        <<Fact>>
+        +sales_fact_id : BIGINT [PK]
+        --
+        #order_date_key : INT [FK]
+        #ship_date_key : INT [FK]
+        #delivery_date_key : INT [FK]
+        #customer_key : INT [FK]
+        #product_key : INT [FK]
+        #order_geo_key : INT [FK]
+        #sales_employee_key : INT [FK]
+        #shipper_key : INT [FK]
+        #promo_key_1 : INT [FK]
+        #promo_key_2 : INT [FK]
+        -- Degenerate Dimensions --
+        order_id : VARCHAR
+        order_status : VARCHAR
+        device_type : VARCHAR
+        order_source : VARCHAR
+        payment_method : VARCHAR
+        -- Measures (Metrics) --
+        quantity : INT
+        unit_price : DECIMAL
+        cogs : DECIMAL
+        discount_amount : DECIMAL
+        gross_sales_amount : DECIMAL
+        net_sales_amount : DECIMAL
+        shipping_fee : DECIMAL
+        payment_value : DECIMAL
+        installments : INT
+        delivery_duration_days : DECIMAL
+    }
+
+    class FACT_INVENTORY_SNAPSHOT {
+        <<Fact>>
+        +inventory_snapshot_id : BIGINT [PK]
+        --
+        #snapshot_date_key : INT [FK]
+        #product_key : INT [FK]
+        -- Measures --
+        stock_on_hand : INT
+        units_received : INT
+        units_sold : INT
+        stockout_days : INT
+        days_of_supply : DECIMAL
+        fill_rate : DECIMAL
+        sell_through_rate : DECIMAL
+        stockout_flag : BOOLEAN
+        overstock_flag : BOOLEAN
+        reorder_flag : BOOLEAN
+    }
+
+    class FACT_WEB_TRAFFIC {
+        <<Fact>>
+        +web_traffic_id : BIGINT [PK]
+        --
+        #date_key : INT [FK]
+        -- Degenerate Dimension --
+        traffic_source : VARCHAR
+        -- Measures --
+        sessions : INT
+        unique_visitors : INT
+        page_views : INT
+        bounce_rate : DECIMAL
+        avg_session_duration : DECIMAL
+    }
+
+    %% ==========================================
+    %% RELATIONSHIPS (Dimension -> Fact)
+    %% ==========================================
+
+    DIM_DATE --> FACT_SALES : order_date_key
+    DIM_DATE --> FACT_SALES : ship_date_key
+    DIM_DATE --> FACT_SALES : delivery_date_key
+    DIM_CUSTOMER --> FACT_SALES : customer_key
+    DIM_PRODUCT --> FACT_SALES : product_key
+    DIM_GEOGRAPHY --> FACT_SALES : order_geo_key
+    DIM_SALES_EMPLOYEE --> FACT_SALES : sales_employee_key
+    DIM_SHIPPER --> FACT_SALES : shipper_key
+    DIM_PROMOTION --> FACT_SALES : promo_key_1
+    DIM_PROMOTION --> FACT_SALES : promo_key_2
+
+    DIM_DATE --> FACT_INVENTORY_SNAPSHOT : snapshot_date_key
+    DIM_PRODUCT --> FACT_INVENTORY_SNAPSHOT : product_key
+
+    DIM_DATE --> FACT_WEB_TRAFFIC : date_key

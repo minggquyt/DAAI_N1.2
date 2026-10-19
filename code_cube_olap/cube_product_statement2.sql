@@ -4,7 +4,7 @@
 DROP TABLE IF EXISTS cube_product_statement2;
 
 CREATE TABLE cube_product_statement2 (
-    product_id String,
+    product_id UInt32,
     product_name String,
     category LowCardinality(String),
     current_cogs Decimal(18, 2),

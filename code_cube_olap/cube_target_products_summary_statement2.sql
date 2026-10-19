@@ -4,7 +4,7 @@
 DROP TABLE IF EXISTS cube_target_products_summary_statement2;
 
 CREATE TABLE cube_target_products_summary_statement2 (
-    product_id String,
+    product_id UInt32,
     product_name String,
     category LowCardinality(String),
     total_net_quantity Int32,
@@ -36,7 +36,7 @@ WITH base_prod AS (
 ), promo_agg AS (
     SELECT 
         product_id, 
-        if(sum(gross_revenue) > 0, (sum(discount_amount) / sum(gross_revenue)) * 100, 0) AS disc_rate 
+        if(sum(gross_revenue) > 0, (sum(discount_amount) / sum(gross_revenue)) * 100, 0.0) AS disc_rate 
     FROM cube_promo_impact_statement2 
     GROUP BY product_id
 ), inv_agg AS (
@@ -56,7 +56,7 @@ SELECT
     b.ret_rate, 
     q.p75, 
     if(b.net_qty >= q.p75 AND b.margin_pct < 20.0, 'High Demand - Low Margin', 'Normal Product'), 
-    coalesce(pr.disc_rate, 0), 
+    coalesce(pr.disc_rate, 0.0), 
     coalesce(i.stockout, 0) 
 FROM base_prod AS b 
 CROSS JOIN quantile_calc AS q 

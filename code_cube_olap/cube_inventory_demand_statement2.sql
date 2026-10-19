@@ -1,10 +1,10 @@
 -- ============================================================
--- Cube 4: Cube Tồn Kho & Kiểm Chứng Nhu Cầu (cube_inventory_demand_statement2)
+-- Cube 4: Tồn Kho & Kiểm Chứng Nhu Cầu (cube_inventory_demand_statement2)
 -- ============================================================
 DROP TABLE IF EXISTS cube_inventory_demand_statement2;
 
 CREATE TABLE cube_inventory_demand_statement2 (
-    product_id String,
+    product_id UInt32,
     year UInt16,
     month UInt8,
     total_stockout_days Int32,

@@ -1,10 +1,10 @@
 -- ============================================================
--- Cube 2: Cube Doanh Thu & Lợi Nhuận Gộp (cube_sales_product_statement2)
+-- Cube 2: Doanh Thu & Lợi Nhuận Gộp (cube_sales_product_statement2)
 -- ============================================================
 DROP TABLE IF EXISTS cube_sales_product_statement2;
 
 CREATE TABLE cube_sales_product_statement2 (
-    product_id String,
+    product_id UInt32,
     year UInt16,
     month UInt8,
     gross_quantity Int32,
@@ -34,11 +34,11 @@ SELECT
     sum(f.discount_amount) AS discount_amount,
     0.00 AS refund_amount,
     sum(f.net_sales_amount) AS net_revenue,
-    sum(f.quantity * f.cogs) AS total_cogs,
-    (sum(f.net_sales_amount) - sum(f.quantity * f.cogs)) AS gross_profit,
-    if(sum(f.net_sales_amount) > 0, ((sum(f.net_sales_amount) - sum(f.quantity * f.cogs)) / sum(f.net_sales_amount)) * 100, 0) AS gross_margin_pct,
+    sum(f.quantity * p.current_cogs) AS total_cogs,
+    (sum(f.net_sales_amount) - sum(f.quantity * p.current_cogs)) AS gross_profit,
+    if(sum(f.net_sales_amount) > 0, ((sum(f.net_sales_amount) - sum(f.quantity * p.current_cogs)) / sum(f.net_sales_amount)) * 100, 0.0) AS gross_margin_pct,
     0.00 AS return_rate,
-    if(sum(f.quantity) > 0, sum(f.net_sales_amount) / sum(f.quantity), 0) AS avg_net_price_per_unit
+    if(sum(f.quantity) > 0, sum(f.net_sales_amount) / sum(f.quantity), 0.0) AS avg_net_price_per_unit
 FROM fact_sales AS f
 INNER JOIN cube_product_statement2 AS p ON f.product_key = p.product_id
 INNER JOIN dim_date AS d ON f.order_date_key = d.date_key

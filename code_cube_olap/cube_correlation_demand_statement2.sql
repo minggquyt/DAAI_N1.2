@@ -1,5 +1,6 @@
 -- ============================================================
--- Cube 6: Cube Tính Hệ Số Tương Quan Pearson r (cube_correlation_demand_statement2)
+-- Cube 6: Hệ Số Tương Quan Pearson r & Ngưỡng P75 (cube_correlation_demand_statement2)
+-- Đã ép kiểu toFloat64()
 -- ============================================================
 DROP TABLE IF EXISTS cube_correlation_demand_statement2;
 
@@ -31,7 +32,7 @@ WITH product_totals AS (
 ), pearson_calc AS (
     SELECT 
         if((n * sum_x2 - sum_x * sum_x) * (n * sum_y2 - sum_y * sum_y) > 0, 
-           (n * sum_xy - sum_x * sum_y) / sqrt((n * sum_x2 - sum_x * sum_x) * (n * sum_y2 - sum_y * sum_y)), 0) AS r 
+           toFloat64(n * sum_xy - sum_x * sum_y) / sqrt(toFloat64((n * sum_x2 - sum_x * sum_x) * (n * sum_y2 - sum_y * sum_y))), 0.0) AS r 
     FROM stats
 ), percentile_calc AS (
     SELECT quantileExact(0.75)(x) AS p75 FROM product_totals
